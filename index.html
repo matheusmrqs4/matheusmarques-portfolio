@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/images/icon.png">
+    <title>Matheus Marques | Backend Developer</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a>Matheus Marques</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#project">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <li class="dropdown">
+              <a class="nav-lang" id="translate-button">Linguagem</i></a>
+              <div class="dropdown-content">
+                <a href="#" id="translate-pt">Português</a>
+                <a href="#" id="translate-en">English</a>
+              </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <h1>Olá,<br />me chamo Matheus Marques <span>e sou Desenvolvedor Backend e Freelancer</span></h1>
+      <div class="header__btns">
+        <a href="/assets/images/CV.pdf" download>Download CV</a>
+      </div>
+      <div class="header__socials">
+        <ul class="socials">
+          <li><a href="https://github.com/matheusmrqs4" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/mmarqs1/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://x.com/m_mrqsphp" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="section__container experience__container" id="about">
+      <h2>SOBRE</h2>
+      <ul class="experience__list">
+          <li>
+            <div class="experience__header">
+              <div>
+                <h4>Quem eu sou</h4>
+              </div>
+            </div>
+            <p>
+              Apenas um desenvolvedor apaixonado por tecnologia, sempre buscando aprender novos conceitos para me tornar um profissional cada vez melhor.
+              Atualmente, estou cursando Engenharia de Software, o que me permite aprofundar ainda mais meus conhecimentos e habilidades na área.
+              Nos últimos dois anos, venho desenvolvendo diversos projetos para aplicar o que aprendo tanto na faculdade quanto em meus estudos pessoais.
+              Tenho grande facilidade em me adaptar a novas mudanças e estou sempre pronto para enfrentar novos desafios.
+            </p>
+            <br/>
+            <a class="link-projects" href="https://github.com/matheusmrqs4" target="_blank">VOCÊ PODE VER TODOS OS MEUS PROJETOS AQUI!</a>
+          </li>
+      </ul>
+    </section>
+
+    <section class="section__container skill__container">
+      <h2>HABILIDADES</h2>
+      <ul class="skill__flex">
+        <li>
+          <span><i class="fab fa-php"></i></i></span>
+        </li>
+        <li>
+          <span><i class="fa-brands fa-laravel"></i></span>
+        </li>
+        <li>
+          <span><i class="fab fa-js"></i></i></span>
+        </li>
+        <li>
+          <span><i class="fab fa-vuejs"></i></span>
+        </li>
+        <li>
+          <span><i class="fab fa-docker"></i></span>
+        </li>
+        <li>
+          <span><i class="fab fa-aws"></i></span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <h2>PRINCIPAIS PROJETOS</h2>
+      <div class="project__grid">
+        <div class="project__card">
+          <img src="/assets/images/Laravel-RESTful-API-development.png" alt="project" />
+          <div class="project__card__details">
+            <div class="card-1">
+              <p id="barbershop-title">Barbershop - API REST</p>
+              <h4 id="barbershop-desc">Sistema de Agendamento para Barbearias</h4>
+              <p class="lang__stack">Laravel - MySQL - Docker</p>
+            </div>
+            <a href="https://github.com/matheusmrqs4/barbershop-api" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project__card">
+          <img src="/assets/images/laravel web.jpg" alt="project" />
+          <div class="project__card__details">
+            <div>
+              <p id="discordapp-title">Laravel Discord APP</p>
+              <h4 id="discordapp-desc">Aplicação de Chat em Tempo Real</h4>
+              <p class="lang__stack">Laravel - MySQL - Laravel Reverb - Websockets </p>
+            </div>
+            <a href="https://github.com/matheusmrqs4/laravel-disc-app" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project__card">
+          <img src="/assets/images/laravel api.jpg" alt="project" />
+          <div class="project__card__details">
+            <div>
+              <p id="postsapi-title">Posts API REST</p>
+              <h4 id="postsapi-desc">API REST para Gerenciamento de Contas, Postagens e Comentários com Sistema de Notificações</h4>
+              <p class="lang__stack">Laravel - MySQL</p>
+            </div>
+            <a href="https://github.com/matheusmrqs4/posts-rest-api-laravel" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project__card">
+          <img src="/assets/images/Laravel_Vue.png" alt="project" />
+          <div class="project__card__details">
+            <div>
+              <p id="notesapp-title">NotesApp - Fullstack</p>
+              <h4 id="notesapp-desc">Aplicação FullStack para Gerenciamento de Notas</h4>
+              <p class="lang__stack">Laravel - MySQL - VueJs - Docker</p>
+            </div>
+            <a href="https://github.com/matheusmrqs4/app-fullstack" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container" id="contact">
+        <h2>Contato</h2>
+        <div class="contact__text">
+          <p>
+            Me mande uma mensagem! Seja se você tiver um projeto em mente ou uma pergunta sobre o meu trabalho, fique à vontade para entrar em contato.
+            Você pode me contatar por e-mail ou através das minhas redes sociais
+            Estou sempre animado para colaborar com pessoas que compartilham dos mesmos interesses e explorar novas oportunidades.
+          </p>
+        </div>
+        <form 
+        class="contact__form" 
+        id="contactForm"  
+        action="https://formsubmit.co/ajax/matheusmrqs2@gmail.com"
+        method="POST"
+        data-form>          
+          <div class="form__group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+          </div>
+          
+          <div class="form__group">
+            <label for="email">Contato</label>
+            <input type="email" id="email" name="email" placeholder="Seu email" required>
+          </div>
+          
+          <div class="form__group">
+            <label for="subject">Assunto</label>
+            <input type="text" id="subject" name="subject" placeholder="Assunto" required>
+          </div>
+          
+          <div class="form__group">
+            <label for="message">Menssagem</label>
+            <textarea id="message" name="message" rows="5" placeholder="Mensagem" required></textarea>
+          </div>
+          
+          <div class="form__group">
+            <button type="submit" class="btn" data-button>Enviar</button>
+          </div>
+        </form>
+        <div class="header__socials">
+          <ul class="socials">
+            <li><a href="https://github.com/matheusmrqs4" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/mmarqs1/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://x.com/m_mrqsphp" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/assets/js/language.js"></script>
+    <script src="/assets/js/contact.js"></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
