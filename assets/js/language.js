@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
             about: { pt: "Sobre", en: "About" },
             projects: { pt: "Projetos", en: "Projects" },
             contact: { pt: "Contato", en: "Contact" },
-            language: { pt: "Linguagem", en: "Language" }
+            language: { pt: "Idioma <i class='fas fa-language'>", en: "Language <i class='fas fa-language'>" }
         },
         header: {
             pt: "Olá,<br />me chamo Matheus Marques <span>e sou Desenvolvedor Backend e Freelancer</span>",
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
         navItems[1].textContent = elementsToTranslate.navLinks.about[language];
         navItems[2].textContent = elementsToTranslate.navLinks.projects[language];
         navItems[3].textContent = elementsToTranslate.navLinks.contact[language];
-        navItems[4].textContent = elementsToTranslate.navLinks.language[language];
+        navItems[4].innerHTML = elementsToTranslate.navLinks.language[language];
 
         document.querySelector('label[for="name"]').textContent = elementsToTranslate.formLabels.name[language];
         document.querySelector('input#name').placeholder = elementsToTranslate.formPlaceholders.name[language];
