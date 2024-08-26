@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         header: {
             pt: "Olá,<br />me chamo Matheus <span>e sou Desenvolvedor Backend e Freelancer</span>",
-            en: "Hello,<br />my name is Matheus Marques <span>and I am a Backend Developer and Freelancer</span>"
+            en: "Hello,<br />my name is Matheus <span>and I am a Backend Developer and Freelancer</span>"
         },
         aboutTitle: {
             pt: "SOBRE",
