@@ -560,6 +560,10 @@ textarea {
     z-index: 1;
   }
 
+  .skill__container {
+    display: none;
+}
+
   .skill__flex {
     gap: 2rem;
   }
