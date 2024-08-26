@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
             language: { pt: "Idioma <i class='fas fa-language'>", en: "Language <i class='fas fa-language'>" }
         },
         header: {
-            pt: "Olá,<br />me chamo Matheus Marques <span>e sou Desenvolvedor Backend e Freelancer</span>",
+            pt: "Olá,<br />me chamo Matheus <span>e sou Desenvolvedor Backend e Freelancer</span>",
             en: "Hello,<br />my name is Matheus Marques <span>and I am a Backend Developer and Freelancer</span>"
         },
         aboutTitle: {
