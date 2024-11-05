@@ -10,7 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
             about: { pt: "Sobre", en: "About" },
             projects: { pt: "Projetos", en: "Projects" },
             contact: { pt: "Contato", en: "Contact" },
-            language: { pt: "Idioma <i class='fas fa-language'>", en: "Language <i class='fas fa-language'>" }
+            language: { 
+                        pt: '<img src="/assets/images/br.png" alt="Bandeira do Brasil" class="flag-icon">', 
+                        en: '<img src="/assets/images/uk.png" alt="Bandeira do Brasil" class="flag-icon">' 
+                    }
         },
         header: {
             pt: "Olá,<br />me chamo Matheus <span>e sou Desenvolvedor Backend e Freelancer</span>",

@@ -112,6 +112,20 @@ body {
   display: inline-block;
 }
 
+.flag-icon {
+  width: 20px;
+  height: 15px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.dropdown-content a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
 .dropdown .nav-lang{
   cursor: pointer;
 }
