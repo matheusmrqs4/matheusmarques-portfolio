@@ -119,6 +119,13 @@ body {
   vertical-align: middle;
 }
 
+.flag-icon-lang {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
 .dropdown-content a {
   display: flex;
   align-items: center;
